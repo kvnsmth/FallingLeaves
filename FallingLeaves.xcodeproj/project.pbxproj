@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E69A59113B2CB8400B8CBD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E69A59013B2CB8400B8CBD8 /* UIKit.framework */; };
+		9E69A59313B2CB8400B8CBD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E69A59213B2CB8400B8CBD8 /* Foundation.framework */; };
+		9E69A59513B2CB8400B8CBD8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E69A59413B2CB8400B8CBD8 /* CoreGraphics.framework */; };
+		9E69A59B13B2CB8400B8CBD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A59913B2CB8400B8CBD8 /* InfoPlist.strings */; };
+		9E69A59E13B2CB8400B8CBD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E69A59D13B2CB8400B8CBD8 /* main.m */; };
+		9E69A5A113B2CB8500B8CBD8 /* FallingLeavesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E69A5A013B2CB8500B8CBD8 /* FallingLeavesAppDelegate.m */; };
+		9E69A5A713B2CB8500B8CBD8 /* FallingLeavesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E69A5A613B2CB8500B8CBD8 /* FallingLeavesViewController.m */; };
+		9E69A5AA13B2CB8500B8CBD8 /* FallingLeavesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5A813B2CB8500B8CBD8 /* FallingLeavesViewController.xib */; };
+		9E69A5B513B2CBBF00B8CBD8 /* backgroundLeaves.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5B013B2CBBF00B8CBD8 /* backgroundLeaves.png */; };
+		9E69A5B613B2CBBF00B8CBD8 /* realLeaf4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5B113B2CBBF00B8CBD8 /* realLeaf4.png */; };
+		9E69A5B713B2CBBF00B8CBD8 /* realLeaf3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5B213B2CBBF00B8CBD8 /* realLeaf3.png */; };
+		9E69A5B813B2CBBF00B8CBD8 /* realLeaf2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5B313B2CBBF00B8CBD8 /* realLeaf2.png */; };
+		9E69A5B913B2CBBF00B8CBD8 /* realLeaf1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5B413B2CBBF00B8CBD8 /* realLeaf1.png */; };
+		9E69A5BB13B2CC9700B8CBD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E69A5BA13B2CC9700B8CBD8 /* QuartzCore.framework */; };
+		9E69A5BD13B3944400B8CBD8 /* textbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E69A5BC13B3944400B8CBD8 /* textbackground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E69A58C13B2CB8400B8CBD8 /* FallingLeaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingLeaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E69A59013B2CB8400B8CBD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E69A59213B2CB8400B8CBD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E69A59413B2CB8400B8CBD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E69A59813B2CB8400B8CBD8 /* FallingLeaves-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FallingLeaves-Info.plist"; sourceTree = "<group>"; };
+		9E69A59A13B2CB8400B8CBD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E69A59C13B2CB8400B8CBD8 /* FallingLeaves-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FallingLeaves-Prefix.pch"; sourceTree = "<group>"; };
+		9E69A59D13B2CB8400B8CBD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E69A59F13B2CB8400B8CBD8 /* FallingLeavesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallingLeavesAppDelegate.h; sourceTree = "<group>"; };
+		9E69A5A013B2CB8500B8CBD8 /* FallingLeavesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FallingLeavesAppDelegate.m; sourceTree = "<group>"; };
+		9E69A5A513B2CB8500B8CBD8 /* FallingLeavesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FallingLeavesViewController.h; sourceTree = "<group>"; };
+		9E69A5A613B2CB8500B8CBD8 /* FallingLeavesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FallingLeavesViewController.m; sourceTree = "<group>"; };
+		9E69A5A913B2CB8500B8CBD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FallingLeavesViewController.xib; sourceTree = "<group>"; };
+		9E69A5B013B2CBBF00B8CBD8 /* backgroundLeaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundLeaves.png; sourceTree = "<group>"; };
+		9E69A5B113B2CBBF00B8CBD8 /* realLeaf4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realLeaf4.png; sourceTree = "<group>"; };
+		9E69A5B213B2CBBF00B8CBD8 /* realLeaf3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realLeaf3.png; sourceTree = "<group>"; };
+		9E69A5B313B2CBBF00B8CBD8 /* realLeaf2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realLeaf2.png; sourceTree = "<group>"; };
+		9E69A5B413B2CBBF00B8CBD8 /* realLeaf1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = realLeaf1.png; sourceTree = "<group>"; };
+		9E69A5BA13B2CC9700B8CBD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9E69A5BC13B3944400B8CBD8 /* textbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textbackground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E69A58913B2CB8400B8CBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E69A5BB13B2CC9700B8CBD8 /* QuartzCore.framework in Frameworks */,
+				9E69A59113B2CB8400B8CBD8 /* UIKit.framework in Frameworks */,
+				9E69A59313B2CB8400B8CBD8 /* Foundation.framework in Frameworks */,
+				9E69A59513B2CB8400B8CBD8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E69A58113B2CB8400B8CBD8 = {
+			isa = PBXGroup;
+			children = (
+				9E69A5BA13B2CC9700B8CBD8 /* QuartzCore.framework */,
+				9E69A59613B2CB8400B8CBD8 /* FallingLeaves */,
+				9E69A58F13B2CB8400B8CBD8 /* Frameworks */,
+				9E69A58D13B2CB8400B8CBD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E69A58D13B2CB8400B8CBD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E69A58C13B2CB8400B8CBD8 /* FallingLeaves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E69A58F13B2CB8400B8CBD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E69A59013B2CB8400B8CBD8 /* UIKit.framework */,
+				9E69A59213B2CB8400B8CBD8 /* Foundation.framework */,
+				9E69A59413B2CB8400B8CBD8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E69A59613B2CB8400B8CBD8 /* FallingLeaves */ = {
+			isa = PBXGroup;
+			children = (
+				9E69A59F13B2CB8400B8CBD8 /* FallingLeavesAppDelegate.h */,
+				9E69A5A013B2CB8500B8CBD8 /* FallingLeavesAppDelegate.m */,
+				9E69A5A513B2CB8500B8CBD8 /* FallingLeavesViewController.h */,
+				9E69A5A613B2CB8500B8CBD8 /* FallingLeavesViewController.m */,
+				9E69A5A813B2CB8500B8CBD8 /* FallingLeavesViewController.xib */,
+				9E69A59713B2CB8400B8CBD8 /* Supporting Files */,
+			);
+			path = FallingLeaves;
+			sourceTree = "<group>";
+		};
+		9E69A59713B2CB8400B8CBD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E69A5B013B2CBBF00B8CBD8 /* backgroundLeaves.png */,
+				9E69A5B113B2CBBF00B8CBD8 /* realLeaf4.png */,
+				9E69A5B213B2CBBF00B8CBD8 /* realLeaf3.png */,
+				9E69A5B313B2CBBF00B8CBD8 /* realLeaf2.png */,
+				9E69A5B413B2CBBF00B8CBD8 /* realLeaf1.png */,
+				9E69A5BC13B3944400B8CBD8 /* textbackground.png */,
+				9E69A59813B2CB8400B8CBD8 /* FallingLeaves-Info.plist */,
+				9E69A59913B2CB8400B8CBD8 /* InfoPlist.strings */,
+				9E69A59C13B2CB8400B8CBD8 /* FallingLeaves-Prefix.pch */,
+				9E69A59D13B2CB8400B8CBD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E69A58B13B2CB8400B8CBD8 /* FallingLeaves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E69A5AD13B2CB8500B8CBD8 /* Build configuration list for PBXNativeTarget "FallingLeaves" */;
+			buildPhases = (
+				9E69A58813B2CB8400B8CBD8 /* Sources */,
+				9E69A58913B2CB8400B8CBD8 /* Frameworks */,
+				9E69A58A13B2CB8400B8CBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FallingLeaves;
+			productName = FallingLeaves;
+			productReference = 9E69A58C13B2CB8400B8CBD8 /* FallingLeaves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E69A58313B2CB8400B8CBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Kevin Smith";
+			};
+			buildConfigurationList = 9E69A58613B2CB8400B8CBD8 /* Build configuration list for PBXProject "FallingLeaves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E69A58113B2CB8400B8CBD8;
+			productRefGroup = 9E69A58D13B2CB8400B8CBD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E69A58B13B2CB8400B8CBD8 /* FallingLeaves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E69A58A13B2CB8400B8CBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E69A59B13B2CB8400B8CBD8 /* InfoPlist.strings in Resources */,
+				9E69A5AA13B2CB8500B8CBD8 /* FallingLeavesViewController.xib in Resources */,
+				9E69A5B513B2CBBF00B8CBD8 /* backgroundLeaves.png in Resources */,
+				9E69A5B613B2CBBF00B8CBD8 /* realLeaf4.png in Resources */,
+				9E69A5B713B2CBBF00B8CBD8 /* realLeaf3.png in Resources */,
+				9E69A5B813B2CBBF00B8CBD8 /* realLeaf2.png in Resources */,
+				9E69A5B913B2CBBF00B8CBD8 /* realLeaf1.png in Resources */,
+				9E69A5BD13B3944400B8CBD8 /* textbackground.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E69A58813B2CB8400B8CBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E69A59E13B2CB8400B8CBD8 /* main.m in Sources */,
+				9E69A5A113B2CB8500B8CBD8 /* FallingLeavesAppDelegate.m in Sources */,
+				9E69A5A713B2CB8500B8CBD8 /* FallingLeavesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E69A59913B2CB8400B8CBD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E69A59A13B2CB8400B8CBD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E69A5A813B2CB8500B8CBD8 /* FallingLeavesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E69A5A913B2CB8500B8CBD8 /* en */,
+			);
+			name = FallingLeavesViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E69A5AB13B2CB8500B8CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E69A5AC13B2CB8500B8CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9E69A5AE13B2CB8500B8CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingLeaves/FallingLeaves-Prefix.pch";
+				INFOPLIST_FILE = "FallingLeaves/FallingLeaves-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E69A5AF13B2CB8500B8CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FallingLeaves/FallingLeaves-Prefix.pch";
+				INFOPLIST_FILE = "FallingLeaves/FallingLeaves-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E69A58613B2CB8400B8CBD8 /* Build configuration list for PBXProject "FallingLeaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E69A5AB13B2CB8500B8CBD8 /* Debug */,
+				9E69A5AC13B2CB8500B8CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E69A5AD13B2CB8500B8CBD8 /* Build configuration list for PBXNativeTarget "FallingLeaves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E69A5AE13B2CB8500B8CBD8 /* Debug */,
+				9E69A5AF13B2CB8500B8CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E69A58313B2CB8400B8CBD8 /* Project object */;
+}
